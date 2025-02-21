@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.input-text {
+    @apply p-2 border outline-none border-[#2b2c2c] rounded-lg transition-all
+}
+
+.input-text:focus {
+    @apply border-[#f79f3f]
+}

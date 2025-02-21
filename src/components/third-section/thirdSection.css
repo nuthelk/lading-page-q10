@@ -1,0 +1,12 @@
+.main {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(231, 199, 161, 1) 35%, rgba(234, 182, 118, 1) 100%);
+}
+
+/* Invertir el gradiente en móviles y tablets */
+@media (max-width: 1023px) {
+
+    .main {
+        background: linear-gradient(0deg, rgba(234, 182, 118, 1) 0%, rgba(231, 199, 161, 1) 35%, rgba(255, 255, 255, 1) 100%);
+    }
+}
