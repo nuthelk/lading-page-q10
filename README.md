@@ -80,36 +80,3 @@ yarn build
 ```
 
 Esto generará los archivos optimizados en la carpeta `dist/`.
-
-## Configuración Adicional
-### Alias de rutas
-Puedes configurar alias de rutas en `vite.config.js`:
-
-```js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
-
-export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src')
-    }
-  }
-});
-```
-
-### Uso de Tailwind CSS
-Si deseas usar Tailwind CSS, instálalo con:
-
-```sh
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-Luego, configura `tailwind.config.js` y agrega las clases en `index.css`.
-
-## Conclusión
-Ya tienes un entorno de desarrollo rápido y optimizado con Vite y React. Ahora puedes comenzar a construir tu aplicación. ¡Feliz codificación! 🚀
-
