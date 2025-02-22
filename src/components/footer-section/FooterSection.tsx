@@ -11,17 +11,14 @@ const FooterSection = () => {
   return (
     <footer
       id="footer"
-      className="min-h-[400px] py-10 px-5 md:px-20 bg-[#f7eeee] w-full flex flex-col"
+      className="min-h-[500px] pt-10 pb-30 md:pb-10 px-5 md:px-20 bg-[#3a3b3b] w-full flex flex-col"
     >
       <div className="flex flex-wrap justify-center sm:justify-between gap-4">
         {dataFooter.map((data, index) => (
           <div key={index} className="flex flex-col w-[200px] gap-2">
             <h5 className="text-[#f79f3f] font-bold text-xl">{data.title}</h5>
             {data.menu.map((item, i) => (
-              <p
-                key={i}
-                className="text-[#2b2c2c] hover:underline cursor-pointer"
-              >
+              <p key={i} className="text-white hover:underline cursor-pointer">
                 {item}
               </p>
             ))}
@@ -29,7 +26,7 @@ const FooterSection = () => {
         ))}
 
         {/* Formulario de contacto */}
-        <div className="flex flex-col w-[200px] text-[#2b2c2c] gap-2">
+        <div className="flex flex-col w-[200px] text-white gap-2">
           <h5 className="text-[#f79f3f] font-bold text-xl">Contáctenos</h5>
 
           {inputFields.map((field, i) => (
@@ -37,12 +34,12 @@ const FooterSection = () => {
               key={i}
               type={field.type}
               placeholder={field.placeholder}
-              className="bg-white text-sm py-1 px-2 border rounded-lg outline-none transition-all duration-300 focus:border-[#f79f3f]"
+              className="bg-white text-[#2b2c2c] text-sm py-1 px-2 border rounded-lg outline-none transition-all duration-300 focus:border-[#f79f3f]"
             />
           ))}
 
           <textarea
-            className="bg-white max-h-[200px] text-sm py-1 px-2 border rounded-lg outline-none transition-all duration-300 focus:border-[#f79f3f]"
+            className="bg-white text-[#2b2c2c] max-h-[200px] text-sm py-1 px-2 border rounded-lg outline-none transition-all duration-300 focus:border-[#f79f3f]"
             placeholder="Comentarios"
           />
 

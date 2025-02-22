@@ -2,6 +2,7 @@ import FirstSection from "./components/first-section/FirstSection";
 import FooterSection from "./components/footer-section/FooterSection";
 import Menu from "./components/menu/Menu";
 import ModalPartner from "./components/modal-partner/ModalPartner";
+import OpinionSection from "./components/opinion-section/OpinionSection";
 import SecondSection from "./components/second-section/SecondSection";
 import ThirdSection from "./components/third-section/ThirdSection";
 
@@ -11,6 +12,7 @@ function App() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <OpinionSection />
       <FooterSection />
       <Menu />
       <ModalPartner />

@@ -12,7 +12,7 @@ const FirstSection = () => {
   return (
     <div
       id="first"
-      className="h-[900px] z-0 w-full bg-cover bg-center relative"
+      className="h-screen z-0 w-full bg-cover bg-center relative"
       style={{ backgroundImage: `url(${mainBanner})` }}
     >
       <Header />

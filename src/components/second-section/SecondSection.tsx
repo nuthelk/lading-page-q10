@@ -36,7 +36,10 @@ const SecondSection = () => {
   }, []);
 
   return (
-    <section id="second" className="h-auto pt-20 w-full overflow-hidden">
+    <section
+      id="second"
+      className="h-[1900px] md:h-auto pt-20 w-full overflow-hidden"
+    >
       <div ref={ref} className="mb-10 md:mb-20 lg:mb-18">
         <h1 className="text-[32px] md:text-[45px] font-semibold text-center text-[#2b2c2c]">
           ¡Descubre las ventajas de ser un Partner Q10!

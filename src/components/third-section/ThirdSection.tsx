@@ -10,16 +10,18 @@ const ThirdSection = () => {
   return (
     <div
       id="third"
-      className="h-auto main pb-20 space-y-40 flex flex-col justify-center px-3 md:px-10 xl:px-48 pt-40 w-full text-[#2b2c2c] overflow-hidden"
+      className="h-auto main pb-20 space-y-40 flex flex-col justify-center px-3 md:px-10 xl:px-48 pt-30 w-full text-[#2b2c2c] overflow-hidden"
     >
-      <div className="flex flex-col items-center lg:flex-row gap-20 justify-center w-full">
+      <div className="flex flex-col items-center lg:flex-row gap-10 lg:gap-20 justify-center w-full">
         <img
           src={imgElement4}
           alt=""
-          className="xl:w-[500px] md:w-[350px]  auto"
+          className="xl:w-[500px] md:w-[350px]  w-[300px]"
         />
         <div className="flex flex-col gap-12">
-          <h1 className="font-bold text-6xl">¿Quién puede ser Partner Q10?</h1>
+          <h1 className="font-bold text-4xl text-center lg:text-6xl">
+            ¿Quién puede ser Partner Q10?
+          </h1>
           <div className="space-y-4">
             <div className="bg-white rounded-xl space-y-2 p-4 border-r-10 border-r-[#f79f3f]">
               <h3 className="font-bold text-xl">Empresas de Tecnología</h3>
