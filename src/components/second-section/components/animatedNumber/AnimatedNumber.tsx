@@ -28,7 +28,7 @@ const AnimatedNumber = ({ value }: { value: number }) => {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="font-semibold text-4xl text-[#f79f3f]"
+      className="font-semibold text-2xl sm:text-4xl text-[#f79f3f]"
     >
       {new Intl.NumberFormat("es-ES", {
         minimumFractionDigits: 0, // Mínimo 2 decimales

@@ -36,7 +36,7 @@ const Menu = () => {
         }
       },
       {
-        threshold: 0.3, // Reducimos el threshold para que detecte antes
+        threshold: 0.4, // Reducimos el threshold para que detecte antes
         rootMargin: "0px 0px -20% 0px", // Evita problemas con la barra de navegación en móviles
       }
     );

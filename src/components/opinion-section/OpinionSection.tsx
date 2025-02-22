@@ -9,7 +9,7 @@ const OpinionSection: React.FC = () => {
   return (
     <div
       id="opinion"
-      className="pt-20 bg-[#fcf7f5] min-h-screen w-full flex flex-col gap-20"
+      className="pt-20 pb-10 bg-[#fcf7f5] min-h-screen w-full flex flex-col gap-20"
     >
       <div>
         <h1 className="text-center text-3xl lg:text-4xl font-bold text-[#2b2c2c]">

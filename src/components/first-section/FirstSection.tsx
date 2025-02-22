@@ -42,7 +42,7 @@ const FirstSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.4 }}
         transition={{ duration: 1 }}
-        className="absolute w-full z-10 blur-xs h-[900px] bg-[#ff8600]"
+        className="absolute w-full z-10 blur-xs h-screen bg-[#ff8600]"
       />
 
       <section className="px-3 absolute z-30 h-full w-full mx-auto">
