@@ -84,14 +84,16 @@ const Menu = () => {
           return (
             <a key={id} href={`#${id}`} className="flex flex-col items-center">
               <Icon
-                className={`${isActive ? "text-[#f79f3f]" : "text-white"} ${
+                className={`${
+                  isActive && !isMobile ? "text-[#f79f3f]" : "text-white"
+                } ${
                   !isMobile ? "text-4xl" : "text-2xl"
                 } drop-shadow-md cursor-pointer transition-transform duration-200 hover:scale-110`}
               />
               {!isMobile && (
                 <p
                   className={`text-sm font-semibold ${
-                    isActive ? "text-[#f79f3f]" : "text-white"
+                    isActive && !isMobile ? "text-[#f79f3f]" : "text-white"
                   }`}
                 >
                   {title}
