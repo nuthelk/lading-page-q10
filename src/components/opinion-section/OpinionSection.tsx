@@ -9,7 +9,7 @@ const OpinionSection: React.FC = () => {
   return (
     <div
       id="opinion"
-      className="pt-20 pb-10 bg-[#fcf7f5] min-h-screen w-full flex flex-col gap-20 overflow-hidden"
+      className="pt-20 pb-10 px-10 bg-[#fcf7f5] min-h-screen w-full flex flex-col gap-20 overflow-hidden"
     >
       <div>
         <h1 className="text-center text-3xl lg:text-4xl font-bold text-[#2b2c2c]">
@@ -19,7 +19,7 @@ const OpinionSection: React.FC = () => {
           “Historias de éxito y crecimiento con Q10”
         </p>
       </div>
-      <div className="w-full px-10 flex items-center justify-center  overflow-hidden">
+      <div className="w-full  flex items-center justify-center  overflow-hidden">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
