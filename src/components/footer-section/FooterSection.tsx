@@ -11,7 +11,7 @@ const FooterSection = () => {
   return (
     <footer
       id="footer"
-      className="min-h-[500px] pt-10 pb-30 md:pb-10 px-5 md:px-20 bg-[#3a3b3b] w-full flex flex-col overflow-hidden"
+      className="min-h-[500px] pt-10 pb-30 xl:pb-10 px-5 md:px-20 bg-[#3a3b3b] w-full flex flex-col overflow-hidden"
     >
       <div className="flex flex-wrap justify-center sm:justify-between gap-4">
         {dataFooter.map((data, index) => (
